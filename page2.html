@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Open Sans', 'Helvetica', sans-serif;
+		}
+		A {
+			text-decoration: none;
+		}
+		#logo{
+			font-weight: 900;
+			float: left;
+			margin-left: 100px;
+			color: black;
+		}
+		.navigators{
+			float: right;
+			border:1px solid transparent;
+			border-radius:.25rem;
+			padding: .5rem;
+			margin: 2.5px;
+			color: black;
+			 
+		}
+		ul {
+  			list-style-type: none;
+ 			margin: 0;
+  			padding: 15px;
+		}
+		#Wantjob{
+			border:1px solid #FE6262;
+			background-color: #FE6262;
+		}
+		#Postjob{
+			border:1px solid #8A7EF6;	
+			background-color: #8A7EF6;
+		}
+		.image {
+   			background-color: #490D40;
+   			background: url("bg_1.jpg") no-repeat;
+   			background-size: cover;
+  			height: 450px;
+   			margin-top: -30px;
+   		}
+   		.heading{
+   			margin-left: 100px;
+   			padding-top: 250px;
+   		}
+   		.top-of-page{
+   			background-color: #E5E4E4;
+   			padding-bottom: 60px;
+   		}
+   		.job-form{
+   			padding-right: 80px;
+   		}
+		.job-form-contain {
+			border: 25px solid #E5E4E4;
+		  	float: left;
+		  	margin-left: 150px; 
+		  	width: 40%;
+		  	padding: 40px;
+		  	line-height: 25px;
+		  	background-color: white;
+		}
+		.information{
+		  	float: left;
+		  	width: 25%;
+		  	background-color: white;
+		  
+		}
+		.more-info{
+			border: 25px solid #E5E4E4;
+			padding-top: 25px;
+			padding-left: 25px; 
+			padding-bottom: 25px;
+			background-color: white; 
+		}
+		.contact-info{
+			border: 25px solid #E5E4E4;
+			padding-top: 25px;
+			padding-left: 25px; 
+			padding-bottom: 25px;
+			background-color: white;
+		}
+		.mid-of-page:after {
+			margin-top: 50px;
+			padding-top: 50px;
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.main-h{
+   			font-size: 20px;
+   			font-weight: 600;
+   		}
+   		.inputbox{
+   			padding: 10px;
+   			border-radius: 7px;
+   		}
+		
+		.footter-contain{
+			color: white;
+			padding: 50px;
+			text-align: center;
+			line-height: 35px;
+		}
+		.footter{
+			background-color: #8A7EF6;
+		}
+		button{
+			border-radius: 5px;
+		}
+	</style>
+
+	<title></title>
+
+</head>
+<body>
+	<section class="top-of-page" >
+		
+	<div class="navbar">
+		<div class="navbar-contain">
+		<ul>
+			<li><a href="#about" id="logo">Jobapply</a></li>
+			<li><a class="navigators" id="Wantjob" href="page3.html" style="margin-right: 100px; color: white">Want a Job</a></li>
+  			<li><a class="navigators" id="Postjob" href="page2.html" style="color: white">Post a Job</a></li>
+  			<li><a class="navigators" href="#">Contact</a></li>
+  			<li><a class="navigators" href="#">Blog</a></li>
+  			<li><a class="navigators" href="#">Canditates</a></li>
+  			<li><a class="navigators" href="#">About</a></li>
+  			<li><a class="navigators" href="page1.html">Home</a></li>
+		</ul>
+		</div>
+	</div>
+
+	<div class="image">
+		<p class="heading">Home > &nbsp New job post</p>
+		<span style="font-weight: 900; font-size: 50px; margin-left: 100px">Post A Job</span></p>
+	</div>
+
+	<div class="Info">
+	
+	</section>
+	
+	<div style="background-color: #E5E4E4">
+		
+	<section class="mid-of-page">
+
+		<div class="job-form">
+			<div class="job-form-contain">
+			    	<input type="checkbox" name="Payment" value="$500">$500 For 30 days <br>
+					<input type="checkbox" name="Recurring" value="$300">$300 Mothly Recurring <br><br>
+
+					Job Title<br>
+					<input class="inputbox" type="text" name="job-title" placeholder="eg. Professional UI/UX Designer" size="60" ><br><br>
+
+					Company<br>
+					<input class="inputbox" type="text" name="Company" placeholder="eg. Facebook, Inc." size="60"><br><br>
+						
+					<span class="main-h">Job Type</span> <br>
+					<input type="radio" name="job-type" value="fulltime">Full Time <br>
+					<input type="radio" name="job-type" value="parttime">Part Time <br>
+					<input type="radio" name="job-type" value="Freelance">Freelance <br>
+					<input type="radio" name="job-type" value="internship">Internship <br>
+					<input type="radio" name="Gender" value="termporary">Termporary <br><br>
+
+					<span class="main-h"> Location</span><br>
+					<input class="inputbox" type="text" name="Location" placeholder="Western City, UK" size="60"><br><br>
+
+					<span class="main-h"> Job Description </span><br>
+					<textarea class="inputbox" rows="10" cols="63"></textarea><br>
+					<button style="padding:10px; background-color: #FE6262; color: white; width: 80px">Post</button>
+			 
+			</div>
+  		</div>
+
+  		<div class="information">
+  			<div class="contact-info">
+		    	<p>
+					<span class="main-h"> Contact Info</span><br><br>
+	
+					Address <br>
+					203 Fake St. Moutain View, San<br>Francisco, California, USA<br><br>
+
+					Phone <br>
+					<span style="color: blue">+1 232 3232 352</span><br><br>
+
+					Email Address <br>
+					<span style="color: blue">[email protected]</span><br>
+				</p>
+  			</div>
+  			
+  			<div class="more-info">
+  				<p>
+					<span class="main-h"> More Info</span><br><br>
+					Loren ipsum dolor sit amet, consectetur
+					adipising elif.lpsa ad iure porro mollitia
+					architector jic consequence.Distinctio nisi
+					perferendis dolore, ipsa consectetur<br><br>
+
+					<button style="padding:10px; background-color: #FE6262; color: white;">Lear More</button>
+				</p>
+  			</div>
+  		</div>
+	
+	</section>
+
+	</div>	
+
+	<div class="footter">
+		<div class="footter-contain">
+			<p>
+				<h1>Subcribe to our Newsletter</h1><br>
+				Far far away, behinde the word mountain, far from the countries Vokalia and<br>
+				Consonantia, there live the blind texts. Separated they live in
+			</p><br>
+			<input class="inputbox" type="text" name="email" placeholder="Enter email Address" size="35" style="padding: 10px;"><button style="padding:10px; background-color: #FE6262; color: white; ">Subscribe</button>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
